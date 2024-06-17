@@ -111,7 +111,7 @@ print(f"Piloto C: {piloto3} pontos")
 ```
 ### Gráfico de Crescimento de Usuários
 
-Este codigo gera um gráfico que projeta o crescimento do número de usuários da plataforma ao longo de 12 meses, com base em uma taxa de crescimento mensal de 5%.
+Este codigo gera um gráfico que projeta o crescimento do número de usuários da plataforma e consequentemente da Fórmula E ao longo de 12 meses, com base em uma taxa de crescimento mensal de 5%.
 
 ```python
 import matplotlib.pyplot as plt
