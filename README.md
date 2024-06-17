@@ -8,7 +8,7 @@ O projeto **Fantasy E** visa aumentar a visibilidade e o engajamento dos fãs da
 
 ---
 
-## Funcionalidades
+## Funcionalidades em python
 
 1. **Análise de Sensibilidade:**
    - Gráfico que mostra como diferentes fatores (vitórias, pole positions, voltas mais rápidas e posições finais) afetam a pontuação total.
@@ -31,7 +31,7 @@ Para executar os scripts do projeto, é necessário ter o Python instalado em su
 
 As principais dependências para executar os scripts são:
 - **numpy:** Para operações matemáticas e manipulação de arrays.
-- **matplotlib:** Para a criação de gráficos.
+- **matplotlib:** Para a criação de gráficos. Como apresentado em sala de aula
 
 Estas bibliotecas podem ser instaladas usando o pip:
 ```bash
@@ -44,7 +44,7 @@ pip install numpy matplotlib
 
 ### Gráfico de Análise de Sensibilidade
 
-Este script gera um gráfico que mostra como diferentes fatores influenciam a pontuação total dos pilotos.
+Este codigo gera um gráfico que mostra como diferentes fatores influenciam a pontuação total dos pilotos.
 
 ```python
 import numpy as np
@@ -86,11 +86,10 @@ plt.grid(True)
 plt.show()
 
 
-Este script gera um gráfico que mostra como diferentes fatores influenciam a pontuação total dos pilotos.
 ```
 ### Cálculo da Pontuação dos Pilotos
 
-Este script calcula a pontuação total de um piloto com base em vitórias, pole positions, voltas mais rápidas e posição final.
+Este codigo calcula a pontuação total de um piloto com base em vitórias, pole positions, voltas mais rápidas e posição final.
 
 ```python
 def calcular_pontuacao(vitoria, pole_position, volta_mais_rapida, posicao_final):
@@ -112,7 +111,7 @@ print(f"Piloto C: {piloto3} pontos")
 ```
 ### Gráfico de Crescimento de Usuários
 
-Este script gera um gráfico que projeta o crescimento do número de usuários da plataforma ao longo de 12 meses, com base em uma taxa de crescimento mensal de 5%.
+Este codigo gera um gráfico que projeta o crescimento do número de usuários da plataforma ao longo de 12 meses, com base em uma taxa de crescimento mensal de 5%.
 
 ```python
 import matplotlib.pyplot as plt
@@ -137,13 +136,11 @@ plt.show()
 
 ## Conclusão
 
-A plataforma **Fantasy E** foi desenvolvida com o objetivo de aumentar o engajamento e a visibilidade da Fórmula E entre os fãs brasileiros. Através de funcionalidades como a análise de sensibilidade da pontuação, o cálculo detalhado das pontuações dos pilotos e a projeção de crescimento de usuários, proporcionamos uma experiência interativa e educativa para os usuários.
+A plataforma **Fantasy E** foi desenvolvida com o objetivo de aumentar o engajamento e a visibilidade da Fórmula E entre os fãs brasileiros. Através de funcionalidades como a análise de sensibilidade da pontuação, o cálculo detalhado das pontuações dos pilotos e a projeção de crescimento de usuários, proporcionamos uma experiência interativa e educativa para os usuários, para que o fantasy seja o mais interativo possivel, alem de visar o aumento do publico.
 
-Acreditamos que esta plataforma não apenas oferece entretenimento, mas também promove uma maior compreensão das dinâmicas e estratégias da Fórmula E. O projeto está aberto a melhorias e novas funcionalidades, e as contribuições da comunidade são bem-vindas para tornar a plataforma ainda melhor.
+Acreditamos que esta plataforma não apenas oferece entretenimento, mas também promove uma maior compreensão das dinâmicas e estratégias da Fórmula E. Embora o projeto esteja apenas no começo e nao completamente feito, há muito espaço para melhorias e fazer com que seja a melhor experiencia possivel para os usuarios, fazendo com que as pessoas se divirtam acompanhando a Fórmula E de uma maneira totalmente nova!
 
 ---
-
-Esperamos que você aproveite a plataforma **Fantasy E** e se divirta acompanhando a Fórmula E de uma maneira totalmente nova!
 
 
 
